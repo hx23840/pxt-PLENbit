@@ -112,6 +112,24 @@ namespace plenbit {
     let init_BLE = false;
     let init_PCA9865 = false;
 
+    //% blockId=PLEN:bit_init_servo
+    //% block="Init Servo %angle|Angles"
+    //% angles.defl="930,630,300,560,240,600,1000,770"
+    export function init_servo(angles: string) {
+        let data: number[] = [];
+        while (angles.includes(",")) {
+            let index = angles.indexOf(",");
+            let angle = angles.substr(0, index);
+            data.push(parseInt(angle));
+            angles = angles.substr(index + 1, angles.length - index - 1);
+        }
+        data.push(parseInt(angles));
+
+        SERVO_SET_INIT = data;
+        //SERVO_ANGLE = data;
+        setAngle([0, 0, 0, 0, 0, 0, 0, 0], 1000);
+    }
+    
     export function secretIncantation() {
         write8(0xFE, 0x85);//PRE_SCALE
         write8(0xFA, 0x00);//ALL_LED_ON_L

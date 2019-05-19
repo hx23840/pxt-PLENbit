@@ -21,5 +21,6 @@
     "yotta": {
         "config": {}
     },
-    "installedVersion": "workspace:62782130-1571-4c82-12ae-bd3cbceba2b2"
+    "installedVersion": "workspace:ec413a4d-5d33-47f8-36da-01d6bda6f1b3",
+    "preferredEditor": "tsprj"
 }
