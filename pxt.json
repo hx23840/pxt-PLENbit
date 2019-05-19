@@ -11,7 +11,8 @@
         "main.ts",
         "plenbit.ts",
         "_locales/ja/pxt-plenbit-strings.json",
-        "_locales/ja/pxt-plenbit-jsdoc-strings.json"
+        "_locales/ja/pxt-plenbit-jsdoc-strings.json",
+        "_locales/zh/pxt-plenbit-strings.json"
     ],
     "testFiles": [
         "test.ts"
