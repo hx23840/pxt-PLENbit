@@ -3,7 +3,7 @@
     "version": "1.0.9",
     "description": "Extention Blocks for PLEN:bit – a small humanoid robot",
     "dependencies": {
-        "core": "*",
+        "core": "*"
     },
     "files": [
         "README.md",

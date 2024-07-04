@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plenprojectcompany/pxt-PLENbit.git"
+    "url": "git+https://github.com/hx23840/pxt-PLENbit.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/plenprojectcompany/pxt-PLENbit/issues"
+    "url": "https://github.com/hx23840/pxt-PLENbit/issues"
   },
-  "homepage": "https://github.com/plenprojectcompany/pxt-PLENbit#readme"
+  "homepage": "https://github.com/hx23840/pxt-PLENbit#readme"
 }
