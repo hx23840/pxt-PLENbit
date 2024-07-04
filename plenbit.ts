@@ -564,7 +564,6 @@ namespace plenbit {
       data[i] = (eyeColor[i] * eyeBrightnes / 255) & 0xFF
       data[i + 3] = data[i]
     }
-    ws2812b.sendBuffer(data, DigitalPin.P16)
   }
 
   //PLEN:bitブロック
